@@ -1,0 +1,50 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size:  32px;
+    border-left: 15px solid #f0f0f0;
+    border-bottom: 15px solid #f0f0f0;
+    border-right: 15px solid #f0f0f0; 
+}
+
+.section {
+    width: 100%;
+}
+
+.black {
+    background-color: #000;
+    height: 33.33vh; /* Un tercio de la altura de la ventana */
+}
+
+.red {
+    background-color: #ff3366;
+    height: 30px; /* Pequeña franja roja */
+}
+
+.gray {
+    background-color: #808080;
+    height: calc(66.67vh - 30px); /* Resto de la altura de la ventana */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+.dgray {
+    background-color: #778899  ;
+    height: 20px; /* Resto de la altura de la ventana */
+
+}
+
+ul {
+    padding-left: 55px;
+    padding-top: 55px;  
+}
+
+li {
+    color: #000;
+     list-style: disc; /* es el bullet de la lista */
+    margin-bottom: 10px;
+}
